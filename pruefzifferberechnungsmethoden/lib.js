@@ -19,6 +19,9 @@ export function stellen(s, l) {
 }
 
 export function quersumme(n) {
+  if (n < 10)
+    return n;
+
   let s = 0;
   while (n > 0) {
     s += n % 10 | 0;

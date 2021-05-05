@@ -1,8 +1,8 @@
 
-export function stellen(s, l) {
+export function stellen(k, l) {
   let n = new Array(l);
   for (let i = 0; i < l; i++) {
-    switch (s[i]) {
+    switch (k[i]) {
       case "0": n[i] = 0; break;
       case "1": n[i] = 1; break;
       case "2": n[i] = 2; break;

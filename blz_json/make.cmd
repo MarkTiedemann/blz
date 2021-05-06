@@ -4,3 +4,4 @@ curl -Lo blz.xlsx https://www.bundesbank.de/resource/blob/602630/38698577eac2fb9
 curl -Lo xlsx_impl.js https://raw.githubusercontent.com/SheetJS/sheetjs/master/xlsx.mini.js
 curl -Lo xlsx_types.d.ts https://raw.githubusercontent.com/SheetJS/sheetjs/master/types/index.d.ts
 powershell -f make.ps1
+deno run --allow-read --allow-write make.ts

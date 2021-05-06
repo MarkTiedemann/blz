@@ -3,7 +3,8 @@
 Bestandteile dieses Projektes sind:
 
 - Die Bankleitzahlen-Daten der Bundesbank konvertiert zu JSON.
-- Eine JavaScript-Implementierung aller Prüfzifferberechnungsmethoden für deutsche Kontonummern.
+- Eine schlanke JavaScript-Implementierung zur clientseitigen Validierung der Bankleitzahl.
+- Eine JavaScript-Implementierung der Prüfzifferberechnungsmethoden für deutsche Kontonummern. (Zurzeit noch unvollständig.)
 
 **Bundesbank-Referenz-Links:**
 

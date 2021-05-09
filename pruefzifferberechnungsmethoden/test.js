@@ -5,3 +5,4 @@ import "./02_test.js";
 import "./03_test.js";
 import "./04_test.js";
 import "./05_test.js";
+import "./06_test.js";
